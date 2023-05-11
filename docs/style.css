@@ -1,0 +1,87 @@
+*{
+    font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+}
+
+nav{
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color:rgb(179, 142, 179);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+body{
+    background: radial-gradient(circle, rgba(255,210,253,1) 0%, rgba(254,255,189,1) 93%);
+}
+
+h1{
+    font-size: large;
+    color: palevioletred;
+    text-align: center;
+}
+
+figcaption{
+    text-align: center;
+}
+
+img{
+    display:block;
+    margin:auto;
+    box-shadow: 0 15px 20px black;
+    width: 360px;
+    height: 260px;
+    border-radius: 10%;
+}
+
+h2{
+    font-size: large;
+    color: rgb(179, 142, 179);
+}
+
+div {
+    display:flex;
+    align-items: grid;
+    font-size: 13px;
+}
+
+.hobbies{
+    border: 2px solid rgb(236, 82, 177);
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    width: 400px;
+    height: 100px;
+}
+
+.intereses{
+    border: 2px solid rgb(236, 82, 177);
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    width: 400px;
+    height: 100px;
+}
+
+.bandas{
+    border: 2px solid rgb(236, 82, 177);
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    width: 400px;
+    height: 100px;
+}
+
+.profesion{
+    border: 2px solid rgb(236, 82, 177);
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    width: 650px;
+    height: 100px;
+}
