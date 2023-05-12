@@ -50,25 +50,7 @@ div {
     font-size: 13px;
 }
 
-.hobbies{
-    border: 2px solid rgb(236, 82, 177);
-    display: flex;
-    margin: 15px;
-    padding: 15px;
-    width: 400px;
-    height: 100px;
-}
-
-.intereses{
-    border: 2px solid rgb(236, 82, 177);
-    display: flex;
-    margin: 15px;
-    padding: 15px;
-    width: 400px;
-    height: 100px;
-}
-
-.bandas{
+.hobbies, .intereses, .bandas{
     border: 2px solid rgb(236, 82, 177);
     display: flex;
     margin: 15px;
