@@ -3,167 +3,120 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    margin:0;
-    background-color: rgb(232, 247, 247);
-    color:rgb(0, 0, 0);
-}
-
-header {
-    position: relative;
-    background-color: rgb(255, 194, 246);
-    height: 70px;
-}
-
-.menu label {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 1;
-}
-
-.opcion {
-    display: none;
-}
-
-input:checked + nav {
-    background-color: rgb(255, 194, 246);
-    border-radius: 10px;
+section
+{
     width: 100%;
-    height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    font-weight: bold;
-    gap: 16px;
-    padding: 16px 0;
-    transform: translateY(0);
 }
 
-nav {
+body
+{
+    background: linear-gradient(90deg, rgba(212,95,145,1) 24%, rgba(121,84,150,1) 100%);
+    margin: 10%;
+}
+
+.card
+{
+    width: 85%;
+    height: 400px;
+    margin: 50px;
+    position:absolute;
+    background: linear-gradient(#D5EAF5 , #F5DDDA);
+    border-radius: 20px;
+    box-shadow: 0 35px 80px black;
+    Justify-content: center;
+}
+
+.card:hover
+{
+    height: 480px;
+}
+
+.img1
+{
     position: absolute;
-    transform: translateY(-200%);
-    transition: all 0.5s ease-in-out;
+    left:50%;
+    top:-50px;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 180px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px black;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card:hover .img1
+{
+    width: 160px;
+    height: 160px;   
+}
+
+.img1 img
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .content
+{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card .content .details
+{
+    padding: 18px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.card .content .details h1
+{
+    font-size: 22px;
+    font-weight: 600;
+    color: Gray;
+    line-height: 30px;
+}
+
+.card .content .details .data h2
+{
+    font-size: 1.3rem;
+    color: Gray;
+    line-height: 1.3em;
+    font-weight: 600;
+}
+
+.card .content .details .botton
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .content .details .botton button
+{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: hotpink;
+    cursor: pointer;
 }
 
 a{
     text-decoration: none;
-    color:rgb(255, 255, 255);
-    font-size: 18px;  
-}
-
-h1{
-    text-align: center;
-    font-size: 30px;
-    color: rgb(255, 194, 246);
-}
-
-.section_1{
-    border-radius: 8px;
-    display: grid;
-    width: 100%;
-    height: 350px;
-    background-image: url(./image1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    box-shadow: 0 15px 20px black;
-}
-
-h2{
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-}
-
-h3{
-    font-size: 15px;
-    font-weight: bold;
-    text-align: center;
-}
-
-figcaption{
-    text-align: justify;
-}
-
-.hobbies, .intereses, .bandas{
-    border: 2px solid rgb(255, 194, 246);
-    display: flex;
-    margin: 15px;
-    padding: 15px;
-    width: 90%;
-    height: auto;
-    border-radius: 10px;
-    font-size: 15px;
-    color: rgb(99, 90, 90);
-    font-weight: bold;
-}
-
-.profesion{
-    border: 2px solid rgb(255, 194, 246);
-    display: flex;
-    margin: 15px;
-    padding: 15px;
-    width: 90%;
-    height: auto;
-    border-radius: 15px;
-    font-size: 15px;
-    color: rgb(99, 90, 90);
-    font-weight: bold;
-}
-
-.container_3{
-    justify-content: space-between;
-    display:flex;
-}
-
-.button_1{
-    border-radius: 10px;
-    background-color: rgb(255, 194, 246);
-    font-weight: bold;
-}
-
-.button_2{
-    border-radius: 10px;
-    background-color: rgb(255, 194, 246);
-    font-weight: bold;
-}
-
-form{
-    margin: 15px;
-}
-
-footer{
-    color:rgb(255, 255, 255);
-    padding: 12px;
-    background-color: rgb(255, 194, 246);
-}
-
-.parr_1, .parr_2, .parr_3{
-    font-size: 12px;
-    display:flex;
-    justify-content: space-around;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-}
-
-@media screen and (min-width: 1024px){
-    header {
-        padding-top: 16px;
-        }
-    
-        label {
-        display: none;
-        }
-    
-        nav {
-        position: unset;
-        transform: translateY(0);
-        display: flex;
-        justify-content: space-evenly;
-        justify-content: end;
-        margin-right: 32px;
-        gap: 32px;
-        }
+    color: white;
 }

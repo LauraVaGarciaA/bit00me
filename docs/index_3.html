@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_3.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand:wght@400;700&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>Información</title>
+</head>
+<body>
+    <header>
+        <label for="menu">
+            <span class="material-symbols-outlined">menu_open</span>
+        </label>
+        <input class="opcion" type="checkbox" id="menu">
+        <nav>
+            <a href="./index_1.html" class="home">Home</a>
+            <a href="./index_2.html" class="interes">Mis intereses</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Regístrate para saber más de ti</h1>
+            <form action="" id="myForm">
+                <label for="nombre">
+                    <span>Nombre:</span>
+                    <input class= "nombre" type="text" id="nombre"/>
+                </label></br></br>
+                <label for="apellido">
+                    <span>Apellido:</span>
+                    <input type="text" id="apellido"/>
+                </label></br></br>
+                <label for="departamento">
+                    <span>Seleccionar departamento de orígen</span>
+                        <select name="departamento" id="departamento">
+                            <option value="ri">Registrar información</option>
+                            <option value="am">Amazonas</option>
+                            <option value="an">Antioquia</option>
+                            <option value="ar">Arauca</option>
+                            <option value="at">Atlántico</option>
+                            <option value="bo">Bolívar</option>
+                            <option value="by">Boyacá</option>
+                            <option value="ca">Caldas</option>
+                            <option value="cq">Caquetá</option>
+                            <option value="cs">Casanare</option>
+                            <option value="cc">Cauca</option>
+                            <option value="cr">Cesar</option>
+                            <option value="ch">Chocó</option>
+                            <option value="co">Córdoba</option>
+                            <option value="cu">Cundinamarca</option>
+                            <option value="gu">Guainía</option>
+                            <option value="gv">Guaviare</option>
+                            <option value="hl">Huila</option>
+                            <option value="lg">La Guajira</option>
+                            <option value="mg">Magdalena</option>
+                            <option value="mt">Meta</option>
+                            <option value="nñ">Nariño</option>
+                            <option value="ns">Norte de Santander</option>
+                            <option value="py">Putumayo</option>
+                            <option value="qd">Quindío</option>
+                            <option value="rd">Risaralda</option>
+                            <option value="sa">San Andrés y Providencia</option>
+                            <option value="st">Santander</option>
+                            <option value="sc">Sucre</option>
+                            <option value="tl">Tolima</option>
+                            <option value="vl">Valle del Cauca</option>
+                            <option value="vp">Vaupés</option>
+                            <option value="vc">Vichada</option>
+                        </select>
+                </label></br></br>
+                <label for="ciudad">
+                    <span>Seleccionar municipio de orígen</span>
+                        <select name="ciudad" id="ciudad">
+                            <option value="rn">Registrar información</option>
+                            <option value="le">Leticia</option>
+                            <option value="md">Medellín</option>
+                            <option value="ac">Arauca</option>
+                            <option value="bq">Barranquilla</option>
+                            <option value="ci">Cartagena de Indias</option>
+                            <option value="tj">Tunja</option>
+                            <option value="mz">Manizales</option>
+                            <option value="fl">Florencia</option>
+                            <option value="yp">Yopal</option>
+                            <option value="py">Popayán</option>
+                            <option value="vl">Valledupar</option>
+                            <option value="qb">Quibdó</option>
+                            <option value="mt">Montería</option>
+                            <option value="bg">Bogotá</option>
+                            <option value="in">Inírida</option>
+                            <option value="jg">San José del Guaviare</option>
+                            <option value="nv">Neiva</option>
+                            <option value="rh">Riohacha</option>
+                            <option value="sm">Santa Marta</option>
+                            <option value="vv">Villavicencio</option>
+                            <option value="pt">Pasto</option>
+                            <option value="ct">Cúcuta</option>
+                            <option value="mc">Mocoa</option>
+                            <option value="an">Armenia</option>
+                            <option value="pr">Pereira</option>
+                            <option value="sp">San Andrés</option>
+                            <option value="bm">Bucaramanga</option>
+                            <option value="sj">Sincelejo</option>
+                            <option value="ib">Ibagué</option>
+                            <option value="cl">Cali</option>
+                            <option value="mi">Mitú</option>
+                            <option value="pc">Puerto Carreño</option>
+                        </select>
+                </label></br></br>
+                <label for="telefono">
+                    <span>Celular:</span>
+                    <input type="number" id="telefono"/>
+                </label></br></br>
+                <label for="correo">
+                    <span>Correo Electrónico:</span>
+                    <input type="text" id="correo"/>
+                </label></br></br>
+                <label for="sexo">
+                    <span>Seleccionar el sexo</span>
+                        <select name="sexo" id="sexo">
+                            <option value="re">Registrar información</option>
+                            <option value="ml">Masculino</option>
+                            <option value="fm">Femenino</option>
+                        </select>
+                </label></br></br>
+                <label for="date">
+                    <span>Fecha de nacimiento</span>
+                    <input type="date" name="" id="date"/>
+                </label></br></br>
+                <label class="privado">
+                    <input type="checkbox" id="aceptar">He leído y acepto las políticas de privacidad
+                </label></br></br>
+                <form class="subcontainer_1">
+                    <button class="boton">
+                       <a href="./index_3.html">Enviar</a>
+                    </button>
+                </form>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section class="section1">
+            <h2 class="contactos">Mi contacto💐</h2>
+                <a class ="facebook" href="https://www.facebook.com/LauraVaGarciaA/">Facebook</a>
+                <a class="twitter" href="https://twitter.com/LauraVaGarciaA">Twitter</a>
+                <a class="instagram" href="https://www.instagram.com/lauravagarciaa/">Instagram</a>
+        </section>
+    </footer>
+</body>
+</html>

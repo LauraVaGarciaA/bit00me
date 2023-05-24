@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    margin:0;
+    background: linear-gradient(90deg, rgb(221, 235, 236) 24%, rgb(253, 230, 249) 100%);
+}
+
+header {
+    position: relative;
+    background-color: hotpink;
+    height: 70px;
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.opcion {
+    display: none;
+}
+
+
+input:checked + nav {
+    background-color: hotpink;
+    border-radius: 10px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    gap: 16px;
+    padding: 16px 0;
+    transform: translateY(0);
+}
+
+nav {
+    position: absolute;
+    transform: translateY(-200%);
+    transition: all 0.5s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 18px;  
+}
+
+.home:hover, .interes:hover{
+    background-color: black;
+    margin: 7px;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+main{
+    background-color:  papayawhip;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 15px 16px black;
+}
+
+button{
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px;
+    font-size: 16px;
+    width: 130px;
+    height: 40px;
+    background-color: hotpink;
+    padding: inherit;
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-left: 90px;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    height: 100px;
+}
+
+.section1{
+    margin: 10px;
+    padding: 10px;
+}
+
+.contactos{
+    font-size: 18px;
+}
+
+.facebook, .twitter, .instagram{
+    font-size: 15px;
+    margin: 10px;
+    
+}
+
