@@ -127,3 +127,137 @@ dd{
     font-family: 'Quicksand', sans-serif;
     padding: auto;
 }
+
+@media screen and (min-width: 768px){
+
+    header {
+        padding-top: 16px;
+        }
+    
+        label {
+        display: none;
+        }
+
+        a{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    
+        nav {
+        position: unset;
+        transform: translateY(0);
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: end;
+        margin-right: 32px;
+        gap: 32px;
+        }
+
+    .contenedor1{
+        width: 500px;
+        margin: 30px;
+        margin-left: 120px;
+        top: 200px;
+    }
+
+    .contenedor2{
+        width: 500px;
+        margin: 30px;
+        margin-left: 120px;
+    }
+
+    .hobbies, .intereses, .bandas{
+        height: 220px;
+    }
+
+    .profesion{
+        height: 250px;
+    }
+
+    h2{
+        font-size: 34px;
+    }
+
+    p{
+        font-size: 28px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    li{
+        font-size: 25px;
+    }
+
+    dd{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    header {
+        padding-top: 16px;
+        }
+    
+        label {
+        display: none;
+        }
+
+        a{
+            font-size: 25px;
+            font-weight: bold;
+        }
+    
+        nav {
+        position: unset;
+        transform: translateY(0);
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: end;
+        margin-right: 32px;
+        gap: 32px;
+        }
+
+    .contenedor1{
+        width: 800px;
+        margin: 30px;
+        margin-left: 250px;
+        top: 30px;
+    }
+
+    .contenedor2{
+        width: 600px;
+        margin: 30px;
+        margin-left: 350px;
+    }
+
+    .hobbies, .intereses, .bandas{
+        height: 220px;
+    }
+
+    .profesion{
+        height: 250px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 32px;
+    }
+
+    h3{
+        font-size: 32px;
+    }
+
+    li{
+        font-size: 28px;
+    }
+
+    dd{
+        font-size: 28px;
+    }
+}

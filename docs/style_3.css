@@ -112,3 +112,70 @@ footer{
     
 }
 
+@media screen and (min-width: 768px){
+    
+    a{
+        font-size: 25px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    main{
+        width: 600px;
+        height: 800px;
+        margin-left: 70px;
+        font-size: 25px;
+    }
+
+    button{
+        margin-left: 200px;
+    }
+
+    footer{
+        height: 140px;
+    }
+
+    .contactos{
+        font-size: 22px;
+    }
+
+    .facebook, .twitter, .instagram{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    a{
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    main{
+        width: 800px;
+        height: 800px;
+        margin-left: 200px;
+        font-size: 25px;
+    }
+
+    button{
+        margin-left: 300px;
+    }
+
+    footer{
+        height: 160px;
+    }
+
+    .contactos{
+        font-size: 25px;
+    }
+
+    .facebook, .twitter, .instagram{
+        font-size: 20px;
+    }
+}

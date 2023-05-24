@@ -26,11 +26,12 @@ body
     border-radius: 20px;
     box-shadow: 0 35px 80px black;
     Justify-content: center;
+    top: 50px;
 }
 
 .card:hover
 {
-    height: 480px;
+    height: 450px;
 }
 
 .img1
@@ -120,3 +121,109 @@ a{
     text-decoration: none;
     color: white;
 }
+
+@media screen and (min-width: 768px){
+    .card{
+            width: 630px;
+            height: 670px;
+            margin: 150px
+        }
+
+    .card:hover{
+        height: 500px;
+        }
+
+    .card:hover .img1
+    {
+        width: 300px;
+        height: 300px;   
+    }
+
+    .card .content .details
+    {
+        padding: 25px;
+        transition: 0.3s;
+    }
+
+    .card .content .details h1
+    {
+        font-size: 35px;
+    }
+
+    .card .content .details .data h2
+    {
+        font-size: 25px;
+    }
+
+    .card .content .details .botton button
+    {
+        padding: 15px 20px;
+        margin: 8px 8px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        font-size: 25px;
+        font-weight: 500;
+        background-color: hotpink;
+        cursor: pointer;
+    }
+
+    a{
+        font-weight: bold;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .card{
+        width: 500px;
+        height: 400px;
+        margin: 20px;
+        top: 150px;
+    }
+
+    .card:hover{
+        height: 580px;
+        }
+
+    .card:hover .img1
+    {
+        width: 300px;
+        height: 300px;   
+    }
+
+    .card .content .details
+    {
+        padding: 10px;
+        transition: 0.3s;
+    }
+
+    .card .content .details h1
+    {
+        font-size: 28px;
+    }
+
+    .card .content .details .data h2
+    {
+        font-size: 20px;
+    }
+
+    .card .content .details .botton button
+    {
+        padding: 15px 20px;
+        margin: 8px 8px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: hotpink;
+        cursor: pointer;
+    }
+
+    a{
+        font-weight: bold;
+    }
+}
+
+
