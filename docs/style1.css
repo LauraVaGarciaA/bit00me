@@ -18,8 +18,8 @@ body
 
 .card
 {
-    width: 85%;
-    height: 400px;
+    width: 80%;
+    height: 390px;
     margin: 50px;
     position:absolute;
     background: linear-gradient(#D5EAF5 , #F5DDDA);
@@ -31,7 +31,7 @@ body
 
 .card:hover
 {
-    height: 450px;
+    height: 320px;
 }
 
 .img1
@@ -40,8 +40,8 @@ body
     left:50%;
     top:-50px;
     transform: translateX(-50%);
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     background: white;
     border-radius: 20px;
     box-shadow: 0 10px 25px black;
@@ -51,8 +51,8 @@ body
 
 .card:hover .img1
 {
-    width: 160px;
-    height: 160px;   
+    width: 170px;
+    height: 170px;   
 }
 
 .img1 img
@@ -80,12 +80,12 @@ body
     padding: 18px;
     text-align: center;
     width: 100%;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .card .content .details h1
 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     color: Gray;
     line-height: 30px;
@@ -93,7 +93,7 @@ body
 
 .card .content .details .data h2
 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: Gray;
     line-height: 1.3em;
     font-weight: 600;
@@ -107,7 +107,7 @@ body
 
 .card .content .details .botton button
 {
-    padding: 10px 30px;
+    padding: 8px 15px;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -124,19 +124,20 @@ a{
 
 @media screen and (min-width: 768px){
     .card{
-            width: 630px;
-            height: 670px;
-            margin: 150px
+            width: 470px;
+            height: 350px;
+            margin: 80px;
+            top: 8px;
         }
 
     .card:hover{
-        height: 500px;
+        height: 420px;
         }
 
     .card:hover .img1
     {
-        width: 300px;
-        height: 300px;   
+        width: 180px;
+        height: 180px;   
     }
 
     .card .content .details
@@ -147,22 +148,22 @@ a{
 
     .card .content .details h1
     {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .card .content .details .data h2
     {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .card .content .details .botton button
     {
-        padding: 15px 20px;
+        padding: 15px 15px;
         margin: 8px 8px;
         border-radius: 10px;
         border: none;
         outline: none;
-        font-size: 25px;
+        font-size: 15px;
         font-weight: 500;
         background-color: hotpink;
         cursor: pointer;
@@ -176,20 +177,20 @@ a{
 
 @media screen and (min-width: 1024px){
     .card{
-        width: 500px;
-        height: 400px;
+        width: 600px;
+        height: 500px;
         margin: 20px;
-        top: 150px;
+        top: 110px;
     }
 
     .card:hover{
-        height: 580px;
+        height: 430px;
         }
 
     .card:hover .img1
     {
-        width: 300px;
-        height: 300px;   
+        width: 250px;
+        height: 250px;   
     }
 
     .card .content .details
@@ -205,12 +206,12 @@ a{
 
     .card .content .details .data h2
     {
-        font-size: 20px;
+        font-size: 23px;
     }
 
     .card .content .details .botton button
     {
-        padding: 15px 20px;
+        padding: 15px 25px;
         margin: 8px 8px;
         border-radius: 10px;
         border: none;

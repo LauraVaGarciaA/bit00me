@@ -55,14 +55,15 @@ a{
 .contenedor1{
     background-color: papayawhip;
     border-radius: 10px;
-    width: 90%;
+    width: 80%;
     height: auto;
     margin: 15px;
+    margin-left: 30px;
     box-shadow: 0 15px 16px black;
 }
 
 h2{
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
     font-weight: bold;
     margin: 15px;
@@ -71,11 +72,10 @@ h2{
 }
 
 p{
-    margin: 10px;
     padding:15px;
     font-family: 'Quicksand', sans-serif;
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /*Div*/
@@ -139,7 +139,7 @@ dd{
         }
 
         a{
-            font-size: 30px;
+            font-size: 20px;
             font-weight: bold;
         }
     
@@ -154,44 +154,44 @@ dd{
         }
 
     .contenedor1{
-        width: 500px;
+        width: 530px;
         margin: 30px;
         margin-left: 120px;
         top: 200px;
     }
 
     .contenedor2{
-        width: 500px;
+        width: 515px;
         margin: 30px;
-        margin-left: 120px;
+        margin-left: 130px;
     }
 
     .hobbies, .intereses, .bandas{
-        height: 220px;
+        height: 160px;
     }
 
     .profesion{
-        height: 250px;
+        height: 160px;
     }
 
     h2{
-        font-size: 34px;
+        font-size: 22px;
     }
 
     p{
-        font-size: 28px;
+        font-size: 18px;
     }
 
     h3{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     li{
-        font-size: 25px;
+        font-size: 18px;
     }
 
     dd{
-        font-size: 25px;
+        font-size: 18px;
     }
 }
 
@@ -221,43 +221,43 @@ dd{
         }
 
     .contenedor1{
-        width: 800px;
+        width: 700px;
         margin: 30px;
-        margin-left: 250px;
+        margin-left: 150px;
         top: 30px;
     }
 
     .contenedor2{
         width: 600px;
         margin: 30px;
-        margin-left: 350px;
+        margin-left: 180px;
     }
 
     .hobbies, .intereses, .bandas{
-        height: 220px;
+        height: 210px;
     }
 
     .profesion{
-        height: 250px;
+        height: 230px;
     }
 
     h2{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     p{
-        font-size: 32px;
+        font-size: 25px;
     }
 
     h3{
-        font-size: 32px;
+        font-size: 28px;
     }
 
     li{
-        font-size: 28px;
+        font-size: 25px;
     }
 
     dd{
-        font-size: 28px;
+        font-size: 25px;
     }
 }
