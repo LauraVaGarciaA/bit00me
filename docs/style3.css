@@ -109,6 +109,10 @@ footer{
 
 @media screen and (min-width: 768px){
 
+    header{
+        height: 85px;
+    }
+
     nav{
         display: flex;
         justify-content: space-evenly;
@@ -173,6 +177,10 @@ footer{
 }
 
 @media screen and (min-width: 1024px){
+
+    header{
+        height: 90px;
+    }
 
     a{
         font-size: 25px;
